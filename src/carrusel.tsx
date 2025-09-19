@@ -1,6 +1,7 @@
 import Carousel from "react-bootstrap/Carousel";
 //import bod2 from "./assets/bod2.jpg";
-import bod3 from "./assets/bod3.jpg";
+import bod3 from "./assets/0012702899.webp";
+import bodega from "./assets/P6250028.jpg"
 
 function Carrusel() {
   return (
@@ -8,7 +9,7 @@ function Carrusel() {
       <Carousel.Item interval={3500}>
         <img
           className="d-block w-100"
-          src={bod3}
+          src={bodega}
           alt="First slide"
           style={{
             width: "clamp(200px, 50%, 600px)", // mínimo 200px, ideal 50% del contenedor, máximo 600px
@@ -27,7 +28,7 @@ function Carrusel() {
       <Carousel.Item interval={3500}>
         <img
           className="d-block w-100"
-          src={bod3}
+          src={bodega}
           alt="Second slide"
           style={{
             width: "clamp(200px, 50%, 600px)", // mínimo 200px, ideal 50% del contenedor, máximo 600px
@@ -46,7 +47,7 @@ function Carrusel() {
       <Carousel.Item interval={3500}>
         <img
           className="d-block w-100"
-          src={bod3}
+          src={bodega}
           alt="Third slide"
           style={{
             width: "clamp(200px, 50%, 600px)", // mínimo 200px, ideal 50% del contenedor, máximo 600px
