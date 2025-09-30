@@ -3,17 +3,22 @@ body {
 }
 .titulo {
   font-family: "Playfair Display", serif; /* tipografía elegante */
-  font-size: 3rem;
-  font-weight: 700;
-  color: #000000; /* tono vino/tierra */
+  font-size: 3.2rem;
+  font-weight: 500;
   text-align: center;
-  letter-spacing: 2px;
   text-transform: uppercase;
-  background: linear-gradient(to right, #000000, #000000); /* degradado fino */
+  letter-spacing: 3px;
+
+  /* degradado elegante tipo vino/tierra */
+  background: linear-gradient(to right, #3c0a0a, #000000, #3c0a0a);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  margin: 30px 0;
+
+  margin: 40px 0;
   position: relative;
+
+  /* sutil sombra para resaltar */
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
 }
 
 .titulo::after {
@@ -25,7 +30,28 @@ body {
   margin: 10px auto 0;
   border-radius: 2px;
 }
+.subtitulo {
+  font-family: "Playfair Display", serif; /* misma familia para coherencia */
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #444; /* gris elegante, no tan duro como el negro */
+  text-align: center;
+  letter-spacing: 1px;
+  margin-top: -10px; /* se acerca un poco al título */
+  margin-bottom: 30px;
 
+  /* un detalle de estilo */
+  font-style: italic;
+  opacity: 0.85;
+}
+
+.item{
+  font-family: "Playfair Display", serif; /* tipografía elegante */
+  font-size: 1.2rem;
+  font-weight: 500;
+
+  
+}
 .timeline {
   position: relative;
   padding: 2rem 0;

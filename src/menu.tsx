@@ -17,15 +17,16 @@ function MenuHamburguesa() {
             </Offcanvas.Header>
             <Offcanvas.Body>
               <Nav className="justify-content-end flex-grow-1 pe-3">
-                <Nav.Link href="#inicio">Inicio</Nav.Link>
-                <Nav.Link href="#contacto">Contacto</Nav.Link>
-                <Nav.Link href="#contacto">Tienda</Nav.Link>
+                <Nav.Link href="#inicio" className="item">Inicio</Nav.Link>
+                <Nav.Link href="#contacto" className="item">Contacto</Nav.Link>
+                <Nav.Link href="#contacto" className="item">Tienda</Nav.Link>
               </Nav>
             </Offcanvas.Body>
           </Navbar.Offcanvas>
         </Container>
       </Navbar>
       <h1 className="titulo">Bodega La Regalona</h1>
+      <h2 className="subtitulo">Fundada en 1884 con el compromiso de elaborar los vinos que representan a la Argentina en el mundo por su elegancia y calidad.</h2>
     </>
   );
 }
