@@ -4,9 +4,8 @@ import img1 from "./assets/0012702833jpg.webp"
 import img2 from "./assets/0012702872.webp"
 import img3 from "./assets/0012702899.webp"
 import img4 from "./assets/0012725295.webp"
-import img5 from "./assets/bo.jpeg"
-import img6 from "./assets/bod2.jpg"
 import img7 from "./assets/bod3.jpg"
+import bodega from "./assets/P6250028.jpg"
 
 
 
@@ -36,7 +35,7 @@ const Timeline = () => {
      {
       año: "Década de 1990",
       texto: "Ernesto Panelli y sus hijos inician una nueva etapa vitivinícola, continuando el fraccionamiento de vinos en la bodega fundada por la familia Piastrellini en la esquina de Zamarbide y Las Vírgenes, en Las Paredes.",
-      img: img7,
+      img: bodega,
     },
     {
       año: "Legado",
